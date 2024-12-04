@@ -1,0 +1,137 @@
+
+
+.body,
+html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+.crud-section {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+
+.crud-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.crud-form label {
+  grid-column: span 2;
+  font-weight: bold;
+}
+
+.crud-form input,
+.crud-form select,
+.crud-form button {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.crud-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 8px 8px 8px 8px;
+  height: 30px;
+  width: 273px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 30px;
+  border-radius: 8px 8px 8px 8px;
+  width: 273px;
+}
+
+.crud-form button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #b02a37;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+}
+
+.armas-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 250px;
+}
+
+select {
+  width: 268px;
+}
+
+.cadastro {
+  margin-top: 17px;
+}
+
+.crud-section-atualizar {
+  display: flex;
+  flex-direction: column;
+}
+
+.crud-section-atualizar button {
+  margin-top: 17px;
+}
+
+.crud-section-delete button {
+  margin-top: 17px;
+}
